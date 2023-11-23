@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Anime Pictures</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Anime Pictures</h1>
+        <div class="images">
+            <img src="image1.jpg" alt="Anime Picture 1">
+            <img src="image2.jpg" alt="Anime Picture 2">
+            <img src="image3.jpg" alt="Anime Picture 3">
+            <img src="image4.jpg" alt="Anime Picture 4">
+            <img src="image5.jpg" alt="Anime Picture 5">
+        </div>
+    </div>
+</body>
+</html>
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.images img {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}MENT_NAME
+        kubectl get services -o wide
